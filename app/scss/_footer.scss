@@ -1,0 +1,26 @@
+footer {
+    // display: flex;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        padding: 30px 20px ;
+
+        a {
+            color: #fff;
+            margin-left: 10px;
+            transition: all 0.3s ease;
+
+            .fab {
+                font-size: 40px;
+            }
+        }
+    
+        a:hover {
+            color: $hoverColor;
+        }
+
+
+    }
+}
