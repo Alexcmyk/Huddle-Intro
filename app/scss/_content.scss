@@ -56,11 +56,17 @@
                 cursor: pointer;
             }
 
+            button:focus {
+                outline: none;
+            }
+
             button:hover {
                 // background-color: $hoverColor;
                 color: $hoverColor;
                 box-shadow: 0px 5px 20px rgba(0,0,0,0.6);
             }
+
+          
         }
     }
 }

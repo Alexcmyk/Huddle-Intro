@@ -178,6 +178,10 @@ a {
   cursor: pointer;
 }
 
+.wrapper .main_content .content_right button:focus {
+  outline: none;
+}
+
 .wrapper .main_content .content_right button:hover {
   color: #f252c9;
   -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
